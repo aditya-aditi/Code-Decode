@@ -8,7 +8,7 @@ def generateRandomLetters():
     while i != 3:
         letter = random.choice(string.ascii_letters)
         randomletter.append(letter)
-        i = i + 1
+        i += 1
 
     randomLetterStr = ""
     for element in randomletter:
